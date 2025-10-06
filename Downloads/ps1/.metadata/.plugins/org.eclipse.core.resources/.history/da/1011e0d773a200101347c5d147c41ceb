@@ -1,0 +1,26 @@
+# === Java & Eclipse specific ignores ===
+
+# Compiled class files
+*.class
+
+# Log and temp files
+*.log
+*.tmp
+
+# Build directories
+bin/
+out/
+target/
+
+# Eclipse project files
+.classpath
+.project
+.settings/
+
+# IDE configs
+.idea/
+.vscode/
+
+# OS generated files
+.DS_Store
+Thumbs.db

@@ -10,4 +10,4 @@
 # Inside src, ignore everything except your working files
 src/*
 !C:\Users\New Guest\Downloads\ps1\ps1\src\twitter\Extract.java
-!C:\Users\New Guest\Downloads\ps1\ps1\test\twitter\ExtractTest.java
+!src/MyFile2.java
