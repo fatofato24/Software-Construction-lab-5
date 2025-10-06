@@ -18,5 +18,3 @@ test/*
 !test/twitter/
 !src/twitter/Extract.java
 !test/twitter/ExtractTest.java
-!src/twitter/Filter.java
-!test/twitter/FilterTest.java
