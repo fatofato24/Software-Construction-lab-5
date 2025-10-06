@@ -1,0 +1,13 @@
+# Ignore everything
+*
+
+# But not these directories (unignore them)
+!src/
+!lib/
+!README.md
+!.gitignore
+
+# Inside src, ignore everything except your working files
+src/*
+!C:\Users\New Guest\Downloads\ps1\ps1\src\twitter\Extract.java
+!C:\Users\New Guest\Downloads\ps1\ps1\test\twitter\ExtractTest.java

@@ -1,13 +1,20 @@
 # Ignore everything
 *
 
-# But not these directories (unignore them)
-!src/
-!lib/
-!README.md
+# But not these
 !.gitignore
+!README.md
 
-# Inside src, ignore everything except your working files
+# Unignore folders you need
+!src/
+!test/
+
+# Inside src and test, ignore everything first
 src/*
-!C:\Users\New Guest\Downloads\ps1\ps1\src\twitter\Extract.java
-!C:\Users\New Guest\Downloads\ps1\ps1\test\twitter\ExtractTest.java
+test/*
+
+# Then allow specific files you're working on
+!src/twitter/
+!test/twitter/
+!src/twitter/Extract.java
+!test/twitter/ExtractTest.java
